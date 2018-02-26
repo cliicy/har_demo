@@ -1,0 +1,16 @@
+From: build@arcserve.com
+To: ${mail_to}
+Subject: Resetting your password for harvest  
+
+Hi,
+
+You've changed your password of cscr501 from (http://pk-buildrequest/).  
+Please keep your temporary password firmly.
+You are supposed to change your temporary password at the first time when you log into cscr501.
+
+User [${user}] 
+Temp Password [${tmp_pwd}]
+
+
+Thanks,
+Harvest Admin

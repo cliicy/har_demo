@@ -1,0 +1,18 @@
+<html>
+<script language="javascript">
+function click_har() {
+    document.getElementById("pwd_change").style.color = "red";
+    document.getElementById("pwd_change").style.display ='none';
+}
+</script>
+
+<body>
+<form method="post" action="http://rmdm-bldvm-l901:8000/Post_leeon.aspx?location=http://pk-buildrequest:8888/hauth">
+    <p>You will get your temporary harvest password by clicking continue</p>
+    <p>Please check your email for your new password</p>
+    <p>You are supposed to change your temporary password at the first time when you log into cscr501.</p>
+<input type="submit"  value="Continue" onclick="click_har()" id="pwd_change">
+</form>
+</body>
+</html>
+
